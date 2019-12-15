@@ -12,7 +12,7 @@ $radio = htmlspecialchars($_POST["radio"]);
 $refferer = getenv('HTTP_REFERER'); //адреса, звідки була надіслана форма
 $date=date("d.m.y"); // число.місяць.рік  
 $time=date("H:i"); // години:хвилини:секунди 
-$myemail = "g-iryna@ukr.net"; // e-mail адміністратора, можна поставити кому і вказати інші адреси
+$myemail = "makarjurtschuk@gmail.com"; // e-mail адміністратора, можна поставити кому і вказати інші адреси
 
 
 // Надсилання листа адміністратору сайта
@@ -28,7 +28,7 @@ E-mail: $email<br>
 Джерело (посилання): $refferer
 ";
 
-mail($myemail, $tema, $message_to_myemail, "From: Sitename <g-iryna@ukr.net> \r\n Reply-To: Sitename \r\n"."MIME-Version: 1.0\r\n"."Content-type: text/html; charset=utf-8\r\n" );
+mail($myemail, $tema, $message_to_myemail, "From: Sitename <makarjurtschuk@gmail.com> \r\n Reply-To: Sitename \r\n"."MIME-Version: 1.0\r\n"."Content-type: text/html; charset=utf-8\r\n" );
 
 
 // Надсилання листа користувачу
@@ -40,7 +40,7 @@ $message_to_myemail = "
 
 ";
 $myemail = $email;
-mail($myemail, $tema, $message_to_myemail, "From: versite <g-iryna@ukr.net> \r\n Reply-To: versite \r\n"."MIME-Version: 1.0\r\n"."Content-type: text/html; charset=utf-8\r\n" );
+mail($myemail, $tema, $message_to_myemail, "From: versite <makarjurtschuk@gmail.com> \r\n Reply-To: versite \r\n"."MIME-Version: 1.0\r\n"."Content-type: text/html; charset=utf-8\r\n" );
 
 
 
