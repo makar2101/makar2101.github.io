@@ -2,10 +2,290 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+
+<link rel="stylesheet"] href="slick/slick.css"/>
+  <link rel="stylesheet" href="slick/slick-theme.css"/>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+</style>
 </head>
 <body>
-	<h1>Text</h1>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="row">
+			<div class="col-lg-2">
+				<a href=""><img src="img/Logo.png" alt="logo"></a>
+			</div>
+			<div class="col-lg-5 ml-auto">
+				<div class="div_menu">
+					<ul class="menu">
+						<li class="menu_item">
+						<a href="#header">home</a>
+						</li>
+						<li class="menu_item">
+						<a href="#about">about</a>
+						</li>
+						<li class="menu_item">
+						<a href="#">features</a>
+						</li>
+						<li class="menu_item">
+							<a href="#contact">contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 ml-auto">
+				<div class="offer fadeInDown animated">
+				<h1>
+					Hello.
+				</h1>
+				<h2>
+					We take mobile photography
+					to a brand new level.
+				</h2>
+				<p>
+					With our free app you can take amazing
+					photos straight from your phone.
+				</p>
+				<a class="get go" href="#pink">get the free ap</a>
+				<div class="ap">
+					<a href="#pink"><img src="img/Google.png" alt="google"></a>
+					<a href=""><img src="img/Appstore .png" alt="app"></a>
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-5">
+					<div class="phone">
+						
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="about_text">
+						<h2>
+						About Us
+					</h2>
+					<p>
+						Despreneur is a magazine about design, technology and entrepreneurship. Nowadays designers play major roles in successful startups and established companies. A Despreneur, coined by us, is  a new breed of human being – a designer with entrepreneurial mindset.
+					</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="about_booton">
+						<ul>
+							<li>
+								<a class="macro_booton" href="#">Macro</a>
+							</li>
+							<li>
+								<a href="#">Filters</a>
+							</li>
+							<li>
+								<a class="sharing_booton" href="#">Sharing</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="macro">
+		<div class="container">
+			<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="macro_text animated">
+						<h1>
+							Macro photography.
+						</h1>
+						<h3>
+							No more expensive lenses and heavy
+							editing in Photoshop.
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>		
+		</div>
+	</section>
+
+
+
+
+
+
+
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="row">
+			<div class="col-lg-12">
+				<div class="text">
+					<h1>
+						Contact Us
+					</h1>
+					<p>
+						Here on the left you can see our team which makes things happen.
+						If you have any questions, t please contact Despreneur at hi[at]despreneur.com. 
+						We’ll get back to you as soon as possible.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row sl">
+			<div class="col-lg-5">
+				<div class="blocks sl_slide">
+					<div class="block">
+						<img src="img/Woman.png" alt="woman">
+						<div>
+							<h2>Sarah Thompson</h2>
+							<p>Infuriatingly humble student. Bacon scholar. Freelance communicator. Social media enthusiast.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<div class="blocks sl_slide">
+					<div class="block">
+						<img src="img/Man.png" alt="">
+						<div>
+							<h2>Bryan Jones</h2>
+							<p>Wannabe travel fanatic. Food buff. Internet ninja. Unapologetic web practitioner. Tvaholic. Alcohol scholar.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<section class="pink" id="pink">
+		<div class="container">
+			<div class="row">
+			<div class="col-lg-12">
+				<div class="pink_text">
+					<h1>
+						Boost Up Your Local Business
+					</h1>
+					<h3>
+						Lorem Ipsum is simply dummy typesetting
+					</h3>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<form action="success.php" class="form js-form" id="popupResult">
+       <input type="text" name="name" required placeholder="Full Name"  class="form-control form__field">
+					<input type="Email" name="email" required placeholder="Email Address" class="form-control form__field">
+					<input type="tel" name="tel" required placeholder="Phone Number" class="form-control form__field">
+					<button class="send" type="submit">Request a quote</button> 
+    </form>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form action="#">
+				<input type="text" name="target" hidden>
+				<input type="text" name="name" placeholder="Введіть ім'я">
+				<button type="submit">Надіслати</button>
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 	
-</body>
+	<!-- Індикація процесу надсилання форми -->
+	<div id="loader">
+		<img src="img/ripple.svg">
+	</div>
+
+	
+	<!-- Повідомлення подяки після відправки форми -->
+	<div id="overlay">
+		<div id="thx">
+			Дякую. Тепер ваші дані у нас)
+   	</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="footer_menu">
+							<ul class="footer_ul">
+							<p>
+							© 2013 Photography
+							</p>
+							<li>
+           					 <a href="#!">App</a>
+         					 </li>
+         					 <li>
+         					 <a href="#header">Home</a>
+         					 </li>
+         					 <li>
+         					 <a href="#!">Press</a>
+   						     </li>
+      					     <li>
+            				 <a href="#!">FAQ</a>
+        				     </li>
+        				     <li>
+            				 <a href="#!">Blog</a>
+        				     </li>
+        				     <li>
+            				 <a href="#!">Terms</a>
+        				     </li>
+        				     <li>
+            				 <a href="#!">Privacy</a>
+        				     </li>
+						</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="itf">	
+						<ul>
+							<li>
+								<a class="qqqq" href="">Instagram</a>
+							</li>
+							<li>
+								<a href="">Twitter</a>
+							</li>
+							<li>
+								<a href="">Facebook</a>
+							</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</footer>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+	<script src="js/main.js"></script></body>
 </html>
